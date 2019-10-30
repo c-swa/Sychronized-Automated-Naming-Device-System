@@ -1,2 +1,8 @@
-# Device-Name-Generator
-Application I developed from the ashes of a joke.
+# Device Name Generator
+
+## Introduction
+This application was created from an idea of a tech joke I made with friends, on the recommendation a fellow student. 
+One day I was naming my devices a series of comical names, "FBI-SecurityVan-28" and "CIA-IceCreamTruck-93", a friend, whom with his permission I'll add a link to his GitHub, as he was really the person that gave me inspiration. 
+
+So, thanks for reading, the rest of this file will contain the instructions, as well as documentation for the use and creation of the file. 
+I won't really say much here during the development of the program while I create it, but I'll definitely be updating my blog, so [check me out](https://christopherswayne.com/)
