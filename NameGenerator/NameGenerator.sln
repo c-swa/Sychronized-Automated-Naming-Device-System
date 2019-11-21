@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGenerator", "NameGenerator\NameGenerator.csproj", "{84CF25DC-2840-487B-BEAD-A99F1E4DA93B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84CF25DC-2840-487B-BEAD-A99F1E4DA93B}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{84CF25DC-2840-487B-BEAD-A99F1E4DA93B}.Debug|anycpu.Build.0 = Debug|anycpu
+		{84CF25DC-2840-487B-BEAD-A99F1E4DA93B}.Release|anycpu.ActiveCfg = Release|anycpu
+		{84CF25DC-2840-487B-BEAD-A99F1E4DA93B}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
