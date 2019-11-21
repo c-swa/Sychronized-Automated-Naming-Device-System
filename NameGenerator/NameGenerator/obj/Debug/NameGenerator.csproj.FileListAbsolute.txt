@@ -1,0 +1,5 @@
+/Users/christopherswayne/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/Device-Name-Generator/NameGenerator/NameGenerator/bin/Debug/NameGenerator.exe
+/Users/christopherswayne/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/Device-Name-Generator/NameGenerator/NameGenerator/bin/Debug/NameGenerator.pdb
+/Users/christopherswayne/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/Device-Name-Generator/NameGenerator/NameGenerator/obj/Debug/NameGenerator.csprojAssemblyReference.cache
+/Users/christopherswayne/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/Device-Name-Generator/NameGenerator/NameGenerator/obj/Debug/NameGenerator.exe
+/Users/christopherswayne/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/Device-Name-Generator/NameGenerator/NameGenerator/obj/Debug/NameGenerator.pdb
