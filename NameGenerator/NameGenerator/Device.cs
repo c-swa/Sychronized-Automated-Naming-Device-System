@@ -51,16 +51,40 @@ namespace NameGenerator
 
         /// <summary>
         /// Devices get a Rank, representative of the "power" of their machine
-        /// Thus the device will have a rank out of __ points.
+        /// Thus the device will have a ranking based on a value of points.
         /// </summary>
         /// <returns>INT PointValue</returns>
         public int FindDeviceRanking()
         {
             int points = 0;
             points += (int)Processor;
-
-
+            if (RAM > 32)
+                points += 32;
+            else
+                points += RAM;
+            if (Age < 2005)
+                points = 1;
+            else
+            {
+                points += 5;
+                if (Age < 2010)
+                    points += 0;
+                else
+                {
+                    points += 10;
+                }
+            }
             return points;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="rank"></param>
+        /// <returns>INT, value out of number of Vehicles</returns>
+        public int CompareRanking(int rank)
+        {
+            return 0;
         }
 
     }
