@@ -131,7 +131,7 @@ namespace NameGenerator
         /// Compares the Device ranking between this and the maximum possible for
         /// the given options.
         /// </summary>
-        public void GiveName()
+        public Vehicle GiveName()
         {
             if ((double)this.FindDeviceRanking() < ((double)FindMaxRank() * 0.25))
                 vehicle = Vehicle.Cruiser;
@@ -141,6 +141,7 @@ namespace NameGenerator
                 vehicle = Vehicle.Truck;
             else
                 vehicle = Vehicle.Intercepter;
+            return vehicle;
         }
     }
 }
