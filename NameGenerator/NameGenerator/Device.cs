@@ -44,9 +44,21 @@ namespace NameGenerator
         //Retain the device's assigned name (a vehicle)
         public Vehicle vehicle;
 
-        public Device()
+        /// <summary>
+        /// Generic Constructor to set up the devices.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="type"></param>
+        /// <param name="processor"></param>
+        /// <param name="age"></param>
+        /// <param name="ram"></param>
+        public Device(string name, string type, Core processor, int age, int ram)
         {
-
+            Name = name;
+            Type = type;
+            Processor = processor;
+            Age = age;
+            RAM = ram;
         }
 
         /// <summary>
@@ -78,14 +90,57 @@ namespace NameGenerator
         }
 
         /// <summary>
-        /// 
+        /// Compares this Device to another. If a -1 is returned, this is less
+        /// than other in ranking. If a 0 is returned, they are equal in ranking.
+        /// If a 1 is returned, this is greater than other in ranking.
         /// </summary>
-        /// <param name="rank"></param>
-        /// <returns>INT, value out of number of Vehicles</returns>
-        public int CompareRanking(int rank)
+        /// <param name="other"></param>
+        /// <returns>INT: -1, 0, 1</returns>
+        public int CompareRanking(Device other)
         {
-            return 0;
+            if(this.FindDeviceRanking() > other.FindDeviceRanking())
+            {
+                return 1;
+            } else if (this.FindDeviceRanking() < other.FindDeviceRanking())
+            {
+                return -1;
+            } else
+            {
+                return 0;
+            }
         }
 
+        /// <summary>
+        /// Finds the maximum potential value.
+        /// </summary>
+        /// <returns></returns>
+        public int FindMaxRank()
+        {
+            int points = 0;
+            //Best possible processor
+            points += (int)Core.i9;
+            //Newest age of device.
+            points += 15;
+            //Max RAM
+            points += 32;
+
+            return points;
+        }
+
+        /// <summary>
+        /// Compares the Device ranking between this and the maximum possible for
+        /// the given options.
+        /// </summary>
+        public void GiveName()
+        {
+            if ((double)this.FindDeviceRanking() < ((double)FindMaxRank() * 0.25))
+                vehicle = Vehicle.Cruiser;
+            else if ((double)this.FindDeviceRanking() < ((double)FindMaxRank() * 0.5))
+                vehicle = Vehicle.Van;
+            else if ((double)this.FindDeviceRanking() < ((double)FindMaxRank() * 0.75))
+                vehicle = Vehicle.Truck;
+            else
+                vehicle = Vehicle.Intercepter;
+        }
     }
 }

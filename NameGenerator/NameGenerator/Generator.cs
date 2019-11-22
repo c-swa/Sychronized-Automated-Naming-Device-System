@@ -6,10 +6,10 @@ namespace NameGenerator
 {
     public class Generator
     {
-        public Dictionary<Devices, int> Options = new Dictionary<Devices, int>();
+        public Dictionary<Device, int> Options = new Dictionary<Device, int>();
 
 
-        public Generator(Devices[] devices)
+        public Generator(Device[] devices)
         {
             Random randomGeneration = new Random();
             for (int count = 0; count < devices.Length; count++)
