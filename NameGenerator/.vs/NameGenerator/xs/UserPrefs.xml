@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{84CF25DC-2840-487B-BEAD-A99F1E4DA93B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="NameGenerator/Generator.cs">
     <Files>
-      <File FileName="NameGenerator/Program.cs" Line="7" Column="1" />
-      <File FileName="NameGenerator/Devices.cs" Line="15" Column="1" />
-      <File FileName="NameGenerator/Generator.cs" Line="3" Column="1" />
+      <File FileName="NameGenerator/Program.cs" Line="27" Column="10" />
+      <File FileName="NameGenerator/Devices.cs" Line="99" Column="38" />
+      <File FileName="NameGenerator/Generator.cs" Line="37" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +15,12 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.NameGenerator FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NameGenerator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
