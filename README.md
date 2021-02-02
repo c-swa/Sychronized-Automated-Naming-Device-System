@@ -1,4 +1,4 @@
-# Device Name Generator
+# Synchronized Automated Naming Device System
 
 ## Introduction
 This application was created from an idea of a tech joke I made with friends, on the recommendation a fellow student. 
